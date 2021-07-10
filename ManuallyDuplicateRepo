@@ -1,0 +1,7 @@
+Manually duplicating a repo (cloning and then pushing into an other Repo
+You can proceed to do the same thing by doing this in the terminal:
+
+git clone https://github.com/OTHER_USER/ORIG_REPO.git
+cd ORIG_REPO
+git remote set-url origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git push -u origin
